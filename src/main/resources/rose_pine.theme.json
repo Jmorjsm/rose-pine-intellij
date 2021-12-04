@@ -3,6 +3,96 @@
   "dark": true,
   "author": "jmorjsm",
   "editorScheme": "/rose_pine.xml",
+  "colors": {
+    "base": "#191724",
+    "surface": "#1f1d2e",
+    "overlay": "#26233a",
+    "inactive": "#555169",
+    "subtle": "#6e6a86",
+    "text": "#e0def4",
+    "love": "#eb6f92",
+    "gold": "#f6c177",
+    "rose": "#ebbcba",
+    "pine": "#31748f",
+    "foam": "#9ccfd8",
+    "iris": "#c4a7e7",
+    "highlight": "#2a2837",
+    "highlightInactive": "#211f2d",
+    "highlightOverlay": "#3a384a"
+  },
   "ui": {
+    "*": {
+      "background": "base",
+      "foreground": "text",
+
+      "infoForeground":"inactive",
+      "successForeground": "inactive",
+      "selectionBackground": "highlight",
+      "selectionForeground": "text",
+      "selectionInactiveBackground": "highlightInactive",
+      "selectionBackgroundInactive": "highlightInactive",
+
+      "disabledBackground": "surface",
+      "inactiveBackground": "surface",
+
+      "disabledForeground": "text",
+      "disabledText": "text",
+      "inactiveForeground": "text",
+
+      "acceleratorForeground": "iris",
+      "acceleratorSelectionForeground": "iris",
+
+      "errorForeground": "love",
+
+      "borderColor": "overlay",
+      "disabledBorderColor": "highlightInactive",
+      "focusColor": "rose",
+      "focusedBorderColor": "highlight",
+      "hoverBorderColor": "highlight",
+      "pressedBorderColor": "highlight",
+
+      "separatorColor": "#B3B3B3",
+      "lineSeparatorColor": "#6A6173",
+
+      "Label.background": "surface",
+      "Label.foreground": "iris"
+
+    },
+    "Editor": {
+      "background": "base",
+      "foreground": "text",
+      "shortcutForeground": "iris"
+    },
+    "EditorTabs": {
+      "background": "base",
+      "hoverBackground": "highlightOverlay",
+      "underlinedTabBackground": "subtle",
+      "underlineColor": "pine",
+      "underlineHeight": 4,
+      "inactiveColoredFileBackground": "inactive"
+    },
+    "Lesson": {
+      "shortcutBackground": "surface",
+      "stepNumberForeground": "text",
+      "Tooltip.background": "overlay",
+      "Tooltip.borderColor": "overlay",
+      "Tooltip.spanBackground": "surface",
+      "Tooltip.spanForeground": "iris",
+      "Tooltip.foreground": "text",
+      "Tooltip.stepNumberForeground": "text",
+      "Badge.newLessonBackground": "foam",
+      "Badge.newLessonForeground": "base"
+    },
+    "ToolTip": {
+      "Actions.infoForeground": "iris"
+    },
+    "SearchMatch": {
+      "startBackground": "rose",
+      "endBackground": "rose"
+    },
+    "ToolTip.shortcutForeground": "iris",
+    "GotItTooltip.shortcutForeground": "iris"
+
+
   }
 }
