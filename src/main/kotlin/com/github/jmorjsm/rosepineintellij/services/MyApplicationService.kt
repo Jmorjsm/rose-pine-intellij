@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.jmorjsm.rosepineintellij.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.jmorjsm.rosepineintellij.MyBundle
 
 class MyApplicationService {
 
