@@ -9,6 +9,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.jmorjsm.rosepineintellij.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.jmorjsm.rosepineintellij.services.MyProjectService"/>
+        <themeProvider id="1c3c4148-e525-4b16-bd57-e2617024172b" path="/rose_pine.theme.json"/>
     </extensions>
 
     <applicationListeners>
