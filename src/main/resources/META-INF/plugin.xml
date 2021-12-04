@@ -10,6 +10,8 @@
         <applicationService serviceImplementation="com.github.jmorjsm.rosepineintellij.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.jmorjsm.rosepineintellij.services.MyProjectService"/>
         <themeProvider id="1c3c4148-e525-4b16-bd57-e2617024172b" path="/rose_pine.theme.json"/>
+        <themeProvider id="23ee4207-419c-4a1a-beea-a12d80398d04" path="/rose_pine_moon.theme.json"/>
+        <themeProvider id="932c8cd1-2bb2-477e-a44c-b4f2abca351e" path="/rose_pine_dawn.theme.json"/>
     </extensions>
 
     <applicationListeners>
