@@ -60,10 +60,11 @@
       "separatorColor": "subtle",
       "lineSeparatorColor": "subtle",
 
-      "Label.background": "surface",
-      "Label.foreground": "iris",
-      "Label.selectedForeground": "iris"
-
+      "Label": {
+        "background": "surface",
+        "foreground": "iris",
+        "selectedForeground": "iris"
+      }
     },
     "ActionButton": {
       "hoverBackground": "iris",
@@ -86,9 +87,11 @@
       }
     },
 
-    "SearchEverywhere":{
-      "Tab.selectedBackground": "highlightOverlay",
-      "Tab.selectedForeground": "text"
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "highlightOverlay",
+        "selectedForeground": "text"
+      }
     },
     "Borders": {
       "color": "surface",
@@ -104,22 +107,27 @@
       "hoverBackground": "highlightOverlay",
       "underlinedTabBackground": "highlightOverlay",
       "underlineColor": "pine",
-
       "underlineHeight": 4,
       "inactiveColoredFileBackground": "inactive"
     },
     "Lesson": {
       "shortcutBackground": "surface",
       "stepNumberForeground": "text",
-      "Tooltip.background": "overlay",
-      "Tooltip.spanBackground": "surface",
-      "Tooltip.foreground": "text",
-      "Tooltip.stepNumberForeground": "text"
+      "Tooltip": {
+        "background": "overlay",
+        "spanBackground": "surface",
+        "foreground": "text",
+        "stepNumberForeground": "text"
+      }
     },
-    "GutterTooltip.infoForeground": "iris",
+    "GutterTooltip": {
+      "infoForeground": "iris"
+    },
     "ToolTip": {
+      "Actions": {
+        "infoForeground": "iris"
+      },
       "background": "overlay",
-      "Actions.infoForeground": "iris",
       "shortcutForeground": "iris",
       "infoForeground": "iris"
     },
@@ -127,7 +135,9 @@
       "startBackground": "rose",
       "endBackground": "rose"
     },
-    "GotItTooltip.shortcutForeground": "iris",
+    "GotItTooltip": {
+      "shortcutForeground": "iris"
+    },
     "FileColor": {
       "Yellow": "gold1a",
       "Blue": "pine1a",
@@ -136,7 +146,11 @@
       "Rose": "love1a",
       "Violet":  "iris1a"
     },
-    "Component.infoForeground": "iris",
-    "Panel.mouseShortcutBackground": "iris"
+    "Component": {
+      "infoForeground": "iris"
+    },
+    "Panel": {
+      "mouseShortcutBackground": "iris"
+    }
   }
 }
