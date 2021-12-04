@@ -16,6 +16,12 @@
     "pine": "#31748f",
     "foam": "#9ccfd8",
     "iris": "#c4a7e7",
+    "love-1a": "#eb6f921a",
+    "gold-1a": "#f6c1771a",
+    "rose-1a": "#ebbcba1a",
+    "pine-1a": "#31748f1a",
+    "foam-1a": "#9ccfd81a",
+    "iris-1a": "#c4a7e71a",
     "highlight": "#2a2837",
     "highlightInactive": "#211f2d",
     "highlightOverlay": "#3a384a"
@@ -51,12 +57,42 @@
       "hoverBorderColor": "highlight",
       "pressedBorderColor": "highlight",
 
-      "separatorColor": "#B3B3B3",
-      "lineSeparatorColor": "#6A6173",
+      "separatorColor": "subtle",
+      "lineSeparatorColor": "subtle",
 
       "Label.background": "surface",
-      "Label.foreground": "iris"
+      "Label.foreground": "iris",
+      "Label.selectedForeground": "iris"
 
+    },
+    "ActionButton": {
+      "hoverBackground": "iris",
+      "pressedBackground": "iris"
+    },
+
+    "Button": {
+      "startBackground": "subtle",
+      "endBackground": "subtle",
+      "startBorderColor": "subtle",
+      "endBorderColor": "subtle",
+      "foreground": "text",
+      "default": {
+        "foreground": "base",
+        "startBackground": "rose",
+        "endBackground": "rose",
+        "startBorderColor": "rose",
+        "endBorderColor": "rose",
+        "focusedBorderColor": "love"
+      }
+    },
+
+    "SearchEverywhere":{
+      "Tab.selectedBackground": "highlightOverlay",
+      "Tab.selectedForeground": "text"
+    },
+    "Borders": {
+      "color": "surface",
+      "ContrastBorderColor": "surface"
     },
     "Editor": {
       "background": "base",
@@ -66,8 +102,9 @@
     "EditorTabs": {
       "background": "base",
       "hoverBackground": "highlightOverlay",
-      "underlinedTabBackground": "subtle",
+      "underlinedTabBackground": "highlightOverlay",
       "underlineColor": "pine",
+
       "underlineHeight": 4,
       "inactiveColoredFileBackground": "inactive"
     },
@@ -75,24 +112,31 @@
       "shortcutBackground": "surface",
       "stepNumberForeground": "text",
       "Tooltip.background": "overlay",
-      "Tooltip.borderColor": "overlay",
       "Tooltip.spanBackground": "surface",
-      "Tooltip.spanForeground": "iris",
       "Tooltip.foreground": "text",
-      "Tooltip.stepNumberForeground": "text",
-      "Badge.newLessonBackground": "foam",
-      "Badge.newLessonForeground": "base"
+      "Tooltip.stepNumberForeground": "text"
     },
+    "GutterTooltip.infoForeground": "iris",
     "ToolTip": {
-      "Actions.infoForeground": "iris"
+      "background": "overlay",
+      "Actions.infoForeground": "iris",
+      "shortcutForeground": "iris",
+      "infoForeground": "iris"
     },
     "SearchMatch": {
       "startBackground": "rose",
       "endBackground": "rose"
     },
-    "ToolTip.shortcutForeground": "iris",
-    "GotItTooltip.shortcutForeground": "iris"
-
-
+    "GotItTooltip.shortcutForeground": "iris",
+    "FileColor": {
+      "Yellow": "gold1a",
+      "Blue": "pine1a",
+      "Green": "foam1a",
+      "Orange":  "rose1a",
+      "Rose": "love1a",
+      "Violet":  "iris1a"
+    },
+    "Component.infoForeground": "iris",
+    "Panel.mouseShortcutBackground": "iris"
   }
 }
