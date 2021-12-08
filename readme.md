@@ -4,9 +4,7 @@
 </p>
 
 <p align="center">
-<!-- Plugin description -->
-All natural pine, faux fur and a bit of soho vibes for the classy minimalist
-<!-- Plugin description end -->
+    All natural pine, faux fur and a bit of soho vibes for the classy minimalist
 </p>
 
 <p align="center">

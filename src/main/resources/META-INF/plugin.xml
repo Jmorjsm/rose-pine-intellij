@@ -4,6 +4,13 @@
     <name>Rosé Pine</name>
     <vendor>jmorjsm</vendor>
 
+    <description>
+        <![CDATA[
+        All natural pine, faux fur and a bit of soho vibes for the classy minimalist<br/><br/>
+        Includes all three of the rose pine themes (rose-pine, rose-pine-dawn, rose-pine-moon).
+        ]]>
+    </description>
+
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
