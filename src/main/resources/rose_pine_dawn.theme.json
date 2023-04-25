@@ -26,6 +26,17 @@
     "highlightInactive": "#f2ede9",
     "highlightOverlay": "#e4dfde"
   },
+  "icons": {
+    "ColorPallete": {
+      "Actions.Grey": "#26233a",
+      "Actions.Blue": "#31748f",
+      "Actions.Green": "#9ccfd8",
+      "Actions.Red": "#eb6f92",
+      "Actions.Yellow": "#f6c177",
+      "Actions.GreyInline": "#908caa",
+      "Actions.GreyInlineDark": "#6e6a86"
+    }
+  },
   "ui": {
     "*": {
       "background": "base",
