@@ -2,7 +2,7 @@
   <colors>
     <option name="CONSOLE_BACKGROUND_KEY" value="191724" />
     <option name="LINE_NUMBERS_COLOR" value="E0DEF4" />
-    <option name="SELECTION_BACKGROUND" value="292737" />
+    <option name="SELECTION_BACKGROUND" value="B25E9E" />
     <option name="CARET_ROW_COLOR" value="211F2D" />
     <option name="WHITESPACES" value="555169" />
     <option name="CARET_COLOR" value="555169" />
@@ -252,12 +252,12 @@
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="C7C7FF" />
+        <option name="FOREGROUND" value="31748f" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="06B8B8" />
+        <option name="FOREGROUND" value="ebbcba" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -267,27 +267,27 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="A7A7A7" />
+        <option name="FOREGROUND" value="6e6a86" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="68E868" />
+        <option name="FOREGROUND" value="9ccfd8" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="FF2EFF" />
+        <option name="FOREGROUND" value="c4a7e7" />
       </value>
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="FFFFFF" />
+        <option name="FOREGROUND" value="e0def4" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="FF6767" />
+        <option name="FOREGROUND" value="eb6f92" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -303,7 +303,7 @@
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="754200" />
+        <option name="FOREGROUND" value="f6c177" />
       </value>
     </option>
     <option name="CSS.COMMENT">
@@ -977,7 +977,7 @@
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="333434" />
+        <option name="EFFECT_COLOR" value="3592C4" />
         <option name="ERROR_STRIPE_COLOR" value="FFFFCC" />
       </value>
     </option>
