@@ -76,7 +76,7 @@
       "endBackground": "subtle",
       "startBorderColor": "subtle",
       "endBorderColor": "subtle",
-      "foreground": "text",
+      "foreground": "base",
       "default": {
         "foreground": "base",
         "startBackground": "rose",
