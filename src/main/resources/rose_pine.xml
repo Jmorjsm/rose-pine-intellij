@@ -1,4 +1,4 @@
-<scheme name="Rose-pine-color-theme" parent_scheme="Darcula" version="1">
+<scheme name="Rosé Pine" parent_scheme="Darcula" version="1">
   <colors>
     <option name="CONSOLE_BACKGROUND_KEY" value="191724" />
     <option name="LINE_NUMBERS_COLOR" value="E0DEF4" />
