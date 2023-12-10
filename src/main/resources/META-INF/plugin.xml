@@ -10,7 +10,7 @@
         Includes all three of the rose pine themes (rose-pine, rose-pine-dawn, rose-pine-moon).
         ]]>
     </description>
-
+    <idea-version since-build="222"/>
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">

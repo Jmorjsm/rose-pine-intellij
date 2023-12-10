@@ -12,8 +12,6 @@ plugins {
     id("org.jetbrains.intellij") version "1.10.2"
     // Gradle Changelog Plugin
     id("org.jetbrains.changelog") version "1.3.1"
-    // Gradle Qodana Plugin
-    id("org.jetbrains.qodana") version "0.1.13"
 }
 
 group = properties("pluginGroup")
@@ -34,22 +32,13 @@ intellij {
     version.set(properties("platformVersion"))
     type.set(properties("platformType"))
 
-    // Plugin Dependencies. Uses `platformPlugins` property from the gradle.properties file.
-    plugins.set(properties("platformPlugins").split(',').map(String::trim).filter(String::isNotEmpty))
+    updateSinceUntilBuild.set(false)
 }
 
 // Configure Gradle Changelog Plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin
 changelog {
     version.set(properties("pluginVersion"))
     groups.set(emptyList())
-}
-
-// Configure Gradle Qodana Plugin - read more: https://github.com/JetBrains/gradle-qodana-plugin
-qodana {
-    cachePath.set(projectDir.resolve(".qodana").canonicalPath)
-    reportPath.set(projectDir.resolve("build/reports/inspections").canonicalPath)
-    saveReport.set(true)
-    showReport.set(System.getenv("QODANA_SHOW_REPORT")?.toBoolean() ?: false)
 }
 
 tasks {
@@ -59,8 +48,6 @@ tasks {
 
     patchPluginXml {
         version.set(properties("pluginVersion"))
-        sinceBuild.set(properties("pluginSinceBuild"))
-        untilBuild.set(properties("pluginUntilBuild"))
 
         // Get the latest available change notes from the changelog file
         changeNotes.set(provider {
